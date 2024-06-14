@@ -1,0 +1,171 @@
+@media (width >= 380px) { /*Media Query for all sizes bigger than Iphone*/
+nav {
+  border: solid black 1px;
+  height: 10%;
+  display: flex;
+  background-color: #ececec;
+}
+.navBox {
+  padding: 10px;
+  margin: 10px;
+  height: 2%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: red;
+}
+
+body {
+  background-color: #9fd3c7;
+}
+
+.homepage {
+  display: flex;
+}
+
+.generalBox {
+  padding: 10px;
+  margin: 10px; /*Proportional CSS Unit*/
+  height: 30vh; /*Proportional CSS Unit*/
+  flex: 0.6;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.PageBoxColor {
+  background-color: #385170;
+  margin: 20px;
+}
+
+.homeimagebox {
+  flex: 0.55;
+  height: 50vh;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+.homeimage {
+  z-index: 10; /*Z-index*/
+  height: 50vh;
+  width: 40vw;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.sectionbox{
+    display: flex;
+}
+
+.normalImage {
+width: 25vw;
+  height: 35vh;
+  margin: auto;
+  display: block;
+  z-index: 3;
+}
+
+p {
+    font-size: 2vh;
+}
+}
+
+@media (width <= 380px) and (width >= 100px) { /*Media Query for IPhone SE*/
+    nav {
+        border: solid black 1px;
+        height: 40px;
+        display: flex;
+        background-color: #ececec;
+      }
+      .navBox {
+        padding-top: 15px;
+        margin: 3px;
+        height: 1%;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+      }
+      
+      .inline {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: red;
+      }
+      
+      body {
+        background-color: #9fd3c7;
+      }
+      
+      .homepage {
+        display: flex;
+      }
+      
+      .generalBox {
+        padding: 10px;
+        margin: 10px;
+        height: 30vh;
+        flex: 0.6;
+        justify-content: center;
+        align-items: center;
+      
+      }
+      
+      .PageBoxColor {
+        background-color: #385170;
+        margin: 20px;
+      }
+      
+      .homeimagebox {
+        flex: 0.55;
+        height: 50vh;
+      }
+      
+      h1, h2 {
+        text-align: center;
+      }
+      
+      
+      .homeimage {
+        z-index: 10;
+        height: 250px;
+        width: 150px;
+        padding: 0;
+        margin: 0;
+      }
+      
+      
+      
+      .sectionbox{
+        display: flex;
+      }
+
+      .normalImage {
+      width: 100%; /*Proportional CSS Unit*/
+        height: 110%;
+        margin: auto;
+        display: block;
+        z-index: 3;
+      }
+      
+      p {
+          font-size: 9px;
+      }
+}
+a {
+    text-decoration: none;
+}
